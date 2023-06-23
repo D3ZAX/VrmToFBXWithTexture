@@ -237,7 +237,7 @@ class OneKeyToExportFBX(bpy.types.Operator):
         export_copied_directly(context)
         clear_copied(context)
         
-        return {'FINISHED', 'UNDO'}
+        return {'FINISHED'}
     
 class Panel(bpy.types.Panel):
     bl_label = "Vrm to FBX"
