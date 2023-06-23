@@ -230,14 +230,14 @@ class OneKeyToExportFBX(bpy.types.Operator):
     """One Key to Export FBX, will auto copy, export and clear"""
     bl_idname = "vrmtofbx.one_key_to_export_fbx"
     bl_label = "One Key To Export FBX"
-    bl_options = {'REGISTER', 'UNDO'}
+    bl_options = {'REGISTER'}
 
     def execute(self, context):
         copy_vrm(context)
         export_copied_directly(context)
         clear_copied(context)
         
-        return {'FINISHED'}
+        return {'FINISHED', 'UNDO'}
     
 class Panel(bpy.types.Panel):
     bl_label = "Vrm to FBX"
