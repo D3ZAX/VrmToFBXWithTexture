@@ -9,7 +9,7 @@ Edit > Preferences > Add-ons > Install... > Select VrmToFBXWithTexture.py
 
 ## How to Use
 
-This Addon adds 3 new operators which can be found in the 3DViews Object Menu:
+This Addon adds 3 new operators which can be found in the Sidebar Menu of 3D Viewport:
 
 <img style="margin-right: 30px;" align="left" src="images/VrmToFBXWithTexture.png"/>
 
